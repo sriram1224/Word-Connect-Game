@@ -1,6 +1,6 @@
 Here's the markdown for the README of your Word Connect Game:
 
-````markdown
+
 # Word Connect Game
 
 A fun word puzzle game built with React, designed to challenge your memory and improve your cognitive skills. Match groups of connected words and aim to get the highest score possible!
