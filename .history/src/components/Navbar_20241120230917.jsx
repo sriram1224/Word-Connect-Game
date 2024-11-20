@@ -23,7 +23,7 @@ const Navbar = () => {
             <i class="fa-solid fa-code orange"></i>
           </a>
           <a
-            href="https://www.linkedin.com/in/kasukurthi-bhargav-781a88227/"
+            href="https://linkedin.com"
             target="_blank"
             rel="noopener noreferrer"
           >

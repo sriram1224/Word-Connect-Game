@@ -98,7 +98,7 @@ const GameBoard = () => {
   const shareMessage = `I scored the highest score of ${highestScore} in the word count game! Come and play this game. ${link}`;
 
   return (
-    <div className="min-h-screen flex flex-col items-center py-10">
+    <div className=" min-h-screen flex flex-col items-center py-10">
       {/* Game Board */}
       <div
         className="grid gap-4 w-full max-w-6xl px-6"
@@ -127,8 +127,7 @@ const GameBoard = () => {
         ))}
       </div>
 
-      {/* Reset and Attempts Section */}
-      <div className="mt-10 flex flex-col items-center w-full px-6">
+      <div className="mt-10 flex flex-col items-center">
         <button
           onClick={resetGame}
           className="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-6 rounded-lg text-lg transition duration-200"
@@ -146,18 +145,15 @@ const GameBoard = () => {
         </p>
       </div>
 
-      {/* Sharing Section */}
-      <div className="flex flex-col items-center py-10 w-full px-6">
-        {/* Share Button */}
+      <div className=" flex flex-col items-center py-10">
         <div
           onClick={() => setShowShareModal(true)}
-          className="border rounded-lg text-2xl pr-2 border-orange-200 flex flex-row gap-2 items-center cursor-pointer"
+          className=" border rounded-lg text-2xl pr-2 border-orange-200 flex flex-row gap-2 items-center cursor-pointer"
         >
-          <i className="fa-solid fa-share text-4xl p-2 rounded-lg bg-orange-300 cursor-pointer"></i>
-          <p className="russo-one-regular">Share Your Highest Score</p>
+          <i className="fa-solid fa-share text-4xl p-2  rounded-lg bg-orange-300 cursor-pointer"></i>
+          <p className="russo-one-regular"> Share Your Highest Score</p>
         </div>
 
-        {/* Share Modal */}
         {showShareModal && (
           <div className="absolute top-0 left-0 w-full h-full bg-gray-900 bg-opacity-50 flex justify-center items-center">
             <div className="bg-white p-8 rounded-lg shadow-lg max-w-sm w-full">
@@ -170,7 +166,7 @@ const GameBoard = () => {
               <p className="text-2xl font-semibold text-center text-gray-800 mb-6">
                 {shareMessage}
               </p>
-              <div className="flex justify-center gap-8 mb-6 flex-wrap">
+              <div className="flex justify-center gap-8 mb-6">
                 <a
                   href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(
                     shareMessage

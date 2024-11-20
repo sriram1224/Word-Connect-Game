@@ -9,7 +9,7 @@ const Navbar = () => {
         </h1>
         <div className="flex text-4xl space-x-4">
           <a
-            href="https://github.com/sriram1224"
+            href="https://github.com"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -23,7 +23,7 @@ const Navbar = () => {
             <i class="fa-solid fa-code orange"></i>
           </a>
           <a
-            href="https://www.linkedin.com/in/kasukurthi-bhargav-781a88227/"
+            href="https://linkedin.com"
             target="_blank"
             rel="noopener noreferrer"
           >
