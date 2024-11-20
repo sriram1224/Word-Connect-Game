@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-red-300 {
+  background-color: #f87171; /* Light red */
+}
+
+.bg-green-300 {
+  background-color: #86efac; /* Light green */
+}
